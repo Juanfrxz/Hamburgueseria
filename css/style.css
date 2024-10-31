@@ -76,11 +76,6 @@ li.nav-link:hover {
   color: #ff702a;
 }
 
-li.nav-link.auth {
-  border: 2px solid white;
-  border-radius: 1rem;
-}
-
 li.nav-link a {
   text-decoration: none;
   color: inherit;
@@ -137,6 +132,87 @@ li.nav-link a {
     z-index: 1;
 }
 
+.about1{
+    position: absolute;
+    top: 150%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    width: fit-content;
+    height: fit-content;
+}
+
+.Atext{
+  color: #ff702a;
+  font-size: 1.5rem;
+}
+
+.Btext{
+  color: white;
+  font-size: 3rem;
+}
+
+.Ctext{
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.img-about{
+    position: absolute;
+    top: 120%;
+    left: 10%;
+    z-index: 1;
+}
+
+.service1{
+  position: absolute;
+    top: 220%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    width: fit-content;
+    height: fit-content;
+} 
+
+.tituloMenu{
+  color: #ff702a;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.servicetext{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.images{
+  position: absolute;
+  z-index: 1;
+}
+
+.img1{
+    position: absolute;
+    top: 250%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    width: fit-content;
+    height: fit-content;
+}
+
+.textOrder{
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.order{
+  color: #ff702a;
+  font-size: 1rem;
+  text-align: center;
+}
 
 @media screen and (max-width: 800px) {
   nav .bars {
