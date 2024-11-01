@@ -72,8 +72,8 @@ li.nav-link {
 }
 
 li.nav-link:hover {
-  background-color: white;
-  color: #ff702a;
+  background-color: #ff702a;
+  color: white;
 }
 
 li.nav-link a {
